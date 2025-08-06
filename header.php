@@ -8,9 +8,9 @@
                     <ul>
                         <li><a href='index.php'>Home</a></li>
                         <li><a href='about.php'>About</a></li>
-                        <li><a href='albums.php'>Photos</a></li>
-                        <li><a href='designs.php'>Graphics</a></li>
-                        <li><a href='websites.php'>Websites</a></li>
+                        <li><a href='albums.php'>Projects</a></li>
+                        <li><a href='designs.php'>Resume</a></li>
+                        <li><a href='websites.php'>Blog</a></li>
                     </ul>
                 </nav>
         </header>
