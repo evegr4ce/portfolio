@@ -11,7 +11,6 @@ Feel free to look through everything, thanks for checking me out! -->
         <title>Home | Eve Grace ♡</title>
         <link rel="stylesheet" href="PortfolioProject.css" type="text/css">
         <script src='script.js'>
-            
         </script>
     </head>
     
@@ -21,15 +20,72 @@ Feel free to look through everything, thanks for checking me out! -->
         ?>
 
         <script>
-            var titles = [" student."," collaborator.", " technologist.", " innovator.", " developer."];
+            var titles = [" student.", " developer.", " collaborator.", " tech enthusiast.", " adventure lover."];
             const taglineChanges = setInterval(taglineChange, 1250);
         </script>
 
         <div class='container'>
             <h1 class="tagline">Hi! I'm <i>Eve Grace</i>, and I'm a </h1>
             <h1 class="tagline" id="myTitle" onload='taglineChange()'> developer.</h1>
-
-            <a href="projects.php">learn more ></a> 
+            <div class='buttonContainer'>
+                <a href='#projects'><button class='learn-more'>Projects</button></a>
+                <a href='resume.php'><button class='learn-more'>Resume</button></a>
+            </div>
+            <img src="assets/mePic1.png" alt="meImg" class="meImage">
         </div>
+
+        <div class='aboutContainer'>
+            <h2 id='about'>About Me</h2>
+            
+        </div>
+
+        <div class='projectContainer' id='projects'>
+            <h1>Projects</h1>
+            <div class="tiles-container">
+                <div class="tile">
+                    <h2>Predator-Prey Neural Network</h2>
+                    <p>
+                        GeeksforGeeks is a leading
+                        platform that provides computer
+                        science resources and coding
+                        challenges for programmers and
+                        technology enthusiasts
+                    </p>
+                </div>
+
+                <div class="tile">
+                    <h2>Virtual Reality Headset</h2>
+                    <p>
+                        GeeksforGeeks is a leading
+                        platform that provides computer
+                        science resources and coding
+                        challenges for programmers and
+                        technology enthusiasts
+                    </p>
+                </div>
+
+                <div class="tile">
+                    <h2>ML Image Classification</h2>
+                    <p>
+                        GeeksforGeeks is a leading
+                        platform that provides computer
+                        science resources and coding
+                        challenges for programmers and
+                        technology enthusiasts
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script>
+            const navbar = document.querySelector("#main-nav");
+                document.addEventListener("scroll", () => {
+                    const scrolled = document.scrollingElement.scrollTop;
+                    if (scrolled > 50) { // Adjust scroll threshold as needed
+                        navbar.classList.add("scrolled");
+                    } else {
+                        navbar.classList.remove("scrolled");
+                    }
+                });
+        </script>
     </body>
 </html>

@@ -14,7 +14,7 @@
         <?php
             include "header.php";
 
-            $file = 'CunneenResume2025.pdf';
+            $file = 'assets/CunneenResume2025.pdf';
             if (file_exists($file)) {
                 echo "<div class='resumeContainer'>
                         <iframe src='$file'></iframe>
