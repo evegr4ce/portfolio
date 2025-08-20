@@ -10,7 +10,8 @@
         </script>
     </head>
     
-    <body>
+    <body class="resume-page">
+        <h2 id='resume'>Resume</h2>
         <?php
             include "header.php";
 

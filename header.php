@@ -3,15 +3,14 @@
 <?php
     echo "
     <header>
-            <nav>
-                <div id='main-nav'></div>
-                    <ul>
-                        <li><a href='myhome.php'>Home</a></li>
-                        <li><a href='#about'>About</a></li>
-                        <li><a href='projects.php'>Projects</a></li>
-                        <li><a href='resume.php'>Resume</a></li>
-                    </ul>
-                </nav>
+            <nav id='main-nav'>
+                <ul>
+                    <li><a href='myhome.php'>Home</a></li>
+                    <li><a href='myhome.php#about'>About</a></li>
+                    <li><a href='myhome.php#projects'>Projects</a></li>
+                    <li><a href='resume.php' id='resume-link'>Resume</a></li>
+                </ul>
+            </nav>
         </header>
     ";
 ?>

@@ -36,7 +36,32 @@ Feel free to look through everything, thanks for checking me out! -->
 
         <div class='aboutContainer'>
             <h2 id='about'>About Me</h2>
-            
+            <div class="about-grid">
+                <div class="about-text">
+                <p>
+                    I’m a tech enthusiast from Chicago, currently based in Colorado Springs. I’m currently pursuing a B.A. 
+                    in Computer Science with a minor in International Relations at Colorado College. <br><br>My current interests lie at 
+                    the intersection of technology and global affairs—especially in the field of cybersecurity, where I get to 
+                    combine my love of puzzles, algorithms, and problem-solving with real-world impact. I love exploring how emerging 
+                    technologies shape global affairs, and I'm interested in discovering how digital security shapes international 
+                    policy, privacy, and innovation. <br><br>I'm proficient in Java, C#, and Javascript (among other languages) and 
+                    I’m always excited to learn new tools and frameworks. I'm currently seeking opportunities to grow through internships, 
+                    mentorship, and collaboration in tech. <br><br>I love building creative projects that combine design and technology.
+                    Outside of coding, you can find me training on the ice, exploring the outdoors, or hanging out with friends. 
+                    Currently, I'm an active member of Colorado College's local sorority Delta Mu, the Career Center, and our Collegiate Figure Skating team.
+                </p>
+                <p>
+                    My goal is to bring thoughtful design into everything I do — 
+                    whether that’s a skating routine, a personal project, or collaborating with a team.
+                </p>
+                </div>
+
+                <div class="about-images">
+                    <img src="assets/skatePic.png" alt="Skating photo of me">
+                    <img src="assets/hikePic.jpg" alt="Hiking photo of me">
+                    <img src="assets/friendPic.jpg" alt="Friend photo of me">
+                </div>
+            </div>
         </div>
 
         <div class='projectContainer' id='projects'>
