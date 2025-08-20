@@ -10,6 +10,7 @@ Feel free to look through everything, thanks for checking me out! -->
     <head>
         <title>Home | Eve Grace ♡</title>
         <link rel="stylesheet" href="PortfolioProject.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <script src='script.js'>
         </script>
     </head>
@@ -35,11 +36,11 @@ Feel free to look through everything, thanks for checking me out! -->
         </div>
 
         <div class='aboutContainer'>
-            <h2 id='about'>About Me</h2>
+            <h2 class="about-title" id='about'>About Me</h2>
             <div class="about-grid">
                 <div class="about-text">
                 <p>
-                    I’m a tech enthusiast from Chicago, currently based in Colorado Springs. I’m currently pursuing a B.A. 
+                    I’m a tech enthusiast from Chicago, currently based in Colorado Springs. I’m pursuing a B.A. 
                     in Computer Science with a minor in International Relations at Colorado College. <br><br>My current interests lie at 
                     the intersection of technology and global affairs—especially in the field of cybersecurity, where I get to 
                     combine my love of puzzles, algorithms, and problem-solving with real-world impact. I love exploring how emerging 
@@ -59,6 +60,7 @@ Feel free to look through everything, thanks for checking me out! -->
                 <div class="about-images">
                     <img src="assets/skatePic.png" alt="Skating photo of me">
                     <img src="assets/hikePic.jpg" alt="Hiking photo of me">
+                    <img src="assets/waterfallPic.jpg" alt="Waterfall photo of me">
                     <img src="assets/friendPic.jpg" alt="Friend photo of me">
                 </div>
             </div>
@@ -70,35 +72,25 @@ Feel free to look through everything, thanks for checking me out! -->
                 <div class="tile">
                     <h2>Predator-Prey Neural Network</h2>
                     <p>
-                        GeeksforGeeks is a leading
-                        platform that provides computer
-                        science resources and coding
-                        challenges for programmers and
-                        technology enthusiasts
+                        Built two C# neural networks to model predator-prey dynamics between a lynx and a hare. Applied reinforcement learning strategies to optimize hunting and survival behaviors, achieving top 25% performance in class comparisons.
                     </p>
                 </div>
 
                 <div class="tile">
                     <h2>Virtual Reality Headset</h2>
                     <p>
-                        GeeksforGeeks is a leading
-                        platform that provides computer
-                        science resources and coding
-                        challenges for programmers and
-                        technology enthusiasts
+                        Developed a custom SteamVR-compatible VR headset using a Raspberry Pi display and a 3-axis gyroscope/accelerometer. Implemented Arduino-based motion tracking and designed a lightweight housing to deliver immersive, low-latency experiences.
                     </p>
                 </div>
 
+                <a href="https://github.com/evegr4ce/imageClassification" target="_blank">
                 <div class="tile">
                     <h2>ML Image Classification</h2>
                     <p>
-                        GeeksforGeeks is a leading
-                        platform that provides computer
-                        science resources and coding
-                        challenges for programmers and
-                        technology enthusiasts
+                        Implemented an image classification system using Python, TensorFlow, Pandas, and NumPy. Trained machine-learning models to recognize and categorize images, optimizing accuracy through data preprocessing and model tuning.
                     </p>
                 </div>
+                </a>
             </div>
         </div>
         <script>
@@ -112,5 +104,7 @@ Feel free to look through everything, thanks for checking me out! -->
                     }
                 });
         </script>
+
+        <?php include 'footer.php'; ?>
     </body>
 </html>
