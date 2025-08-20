@@ -1,7 +1,16 @@
 /* DEFALUTS */
 
+/* 
+colors:
+red: #e63946
+light grey: #f1faee
+light blue: #a8dadc
+medium blue: #457b9d
+dark blue: #1d3557
+*/
+
 body {
-    background-color: rgb(51, 52, 67);
+    background-color: #f1faee;
 }
 
 img {
@@ -48,7 +57,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #457b9d;
     font-size: 18px;
     font-family: poppins;
     font-weight: 500;
@@ -86,7 +95,7 @@ iframe {
     padding: 5px;
     font-family: poppins;
     font-weight: 600;
-    color: white;
+    color: #457b9d;
 }
 
 #myTitle {
