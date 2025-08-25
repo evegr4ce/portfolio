@@ -180,7 +180,6 @@ nav ul li a {
 iframe {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
     width: 75%;
     height: 700px;
 }
@@ -353,7 +352,7 @@ button.learn-more:active::before {
   color: #f1faee;
   padding: 2rem 1rem;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .footer-container {

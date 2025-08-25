@@ -5,6 +5,7 @@
     <head>
         <title>Resume | Eve Grace ♡</title>
         <link rel="stylesheet" href="PortfolioProject.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <script src='script.js'>
             
         </script>
@@ -23,8 +24,8 @@
             } else {
                 echo "<p>Sorry, the resume file does not exist.</p>";
             }
-        ?>
 
-        <?php include 'footer.php'; ?>
+            include "footer.php";
+        ?>
     </body>
 </html>
